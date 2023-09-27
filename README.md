@@ -12,7 +12,6 @@
 - [スタイルシートの編集①](/2-introduction-to-vivliostyle/4-editing-style-sheets-1.md)
 - [Markdownファイルの編集](/2-introduction-to-vivliostyle/5-editing-markdown-file.md)
 - [スタイルシートの編集②](/2-introduction-to-vivliostyle/6-editing-style-sheets-2.md)
-- [H2見出しの直前で改ページする指定](/2-introduction-to-vivliostyle/7-page-break-just-before-h2.md)
 
 ## 第3章 Vivliostyleで自分の本を作る-1
 
