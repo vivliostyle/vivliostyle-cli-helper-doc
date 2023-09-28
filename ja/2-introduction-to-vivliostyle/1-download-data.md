@@ -2,6 +2,8 @@
 
 ## ブラウザで告知ページを開き、URLをクリック
 
+- [講師に教わりながら、Vivliostyleで本を作る！](https://vivliostyle.org/ja/hands-on/1/)
+
 ![](/images/2-introduction-to-vivliostyle/1-download-data/2-1-1.png)
 
 ## 「講習用サンプル+フォーマット」が開いたら、kousyu1.zipをクリック**（01:15）**
