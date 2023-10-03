@@ -1,7 +1,16 @@
-# Add Files（ファイルの追加）
+# Vivliostyleで自分の本を作る-1
 
-## Add Image（画像ファイルの追加）
+## Googleフォントの使い方
 
-![](images/functions-of-the-actions-menu/add-files/fig-1.png)
+![](/images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-1.png)
 
-Actionメニューの「Add Image」を選択するとファイル選択画面が表示され、ローカルデバイス上にある画像ファイルをアップロードすることができます。
+![](/images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-2.png)
+
+![](/images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-3.png)
+
+![](/images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-4.png)
+
+![](/images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-5.png)
+
+![](/images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-6.png)
+
