@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Vivliostyle Pub Docs</title>
+  <title>vivliostyle-cli-helper-doc</title>
   <link rel="icon" href="images/vivliostyle-icon.png" />
   <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css" />
 </head>
@@ -22,7 +22,7 @@
     Vue.use(window['vue-js-toggle-button'].default);
 
     new Docute({
-      title: 'Vivliostyle Pub Docs',
+      title: 'vivliostyle-cli-helper-doc',
       target: '#docute',
       plugins: [],
       nav: [
@@ -36,57 +36,56 @@
         },
         {
           title: 'GitHub',
-          link: 'https://github.com/vivliostyle/vivliostyle-pub',
+          link: 'https://github.com/vivliostyle/vivliostyle-cli-helper-doc',
         },
       ],
       sidebar: [
         {
-          title: 'はじめに',
+          title: '第1章 最初にお読みください',
           children: [
-            { title: 'データのダウンロード', link: '/1-readme-first/about-this-document' },
+            { title: 'はじめに', link: '/ja/1-readme-first/about-this-document' },
           ],
         },
         {
-          title: '第1章 Vivliostyle入門',
+          title: '第2章 Vivliostyle入門',
           children: [
-            { title: 'データのダウンロード', link: '/2-introduction-to-vivliostyle/1-download-data' },
-            { title: 'VSCode機能拡張のインストール', link: '/introduction-to-vivliostyle/2-installing-extension' },
-            { title: 'vivliostyle-cil-helperの使い方', link: '/2-introduction-to-vivliostyle/3-how-to-use-vivliostyle-cil-helper' },
-            { title: 'スタイルシートの編集①', link: '/2-introduction-to-vivliostyle/4-editing-style-sheets-1' },
-            { title: 'Markdownファイルの編集', link: '/2-introduction-to-vivliostyle/5-editing-markdown-file' },
-            { title: 'スタイルシートの編集②', link: '/2-introduction-to-vivliostyle/6-editing-style-sheets-2' },
-            { title: 'H2見出しの直前で改ページする指定', link: '/2-introduction-to-vivliostyle/7-page-break-just-before-h2' },
+            { title: 'データのダウンロード', link: '/ja/2-introduction-to-vivliostyle/1-download-data' },
+            { title: 'VSCode機能拡張のインストール', link: '/ja/2-introduction-to-vivliostyle/2-installing-extension' },
+            { title: 'vivliostyle-cil-helperの使い方', link: '/ja/2-introduction-to-vivliostyle/3-how-to-use-vivliostyle-cil-helper' },
+            { title: 'スタイルシートの編集①', link: '/ja/2-introduction-to-vivliostyle/4-editing-style-sheets-1' },
+            { title: 'Markdownファイルの編集', link: '/ja/2-introduction-to-vivliostyle/5-editing-markdown-file' },
+            { title: 'スタイルシートの編集②', link: '/ja/2-introduction-to-vivliostyle/6-editing-style-sheets-2' },
           ],
         },
         {
-          title: '第2章 Vivliostyleで自分の本を作る-1',
+          title: '第3章 Vivliostyleで自分の本を作る-1',
           children: [
-            { title: 'ファイルとフォルダ操作の概要',  link: '/file-and-folder-operations/overview' },
-            { title: 'ファイル一覧ペインからの操作', link: '/file-and-folder-operations/file-list-pane-operations' },
-            { title: '右クリックメニュー（ファイル操作）', link: '/file-and-folder-operations/right-click-menu-on-a-file' },
-            { title: '右クリックメニュー（フォルダ操作）',  link: '/file-and-folder-operations/right-click-menu-on-a-folder' },
+            { title: '本文領域の設定方法', link: '/ja/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area' },
+            { title: 'Markdownファイルの新規作成', link: '/ja/3-create-your-book-in-vivliostyle-1/2-create-a-new-markdown-file' },
+            { title: '文書の保存', link: '/ja/3-create-your-book-in-vivliostyle-1/3-save-document' },
+            { title: '見出し周りの装飾', link: '/ja/3-create-your-book-in-vivliostyle-1/4-decoration-around-headings' },
           ],
         },
         {
-          title: '第3章 Vivliostyleで自分の本を作る-2',
+          title: '第4章 Vivliostyleで自分の本を作る-2',
           children: [
-            { title: 'GoogleFontの使い方', link: '/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont' },
-            { title: 'スタイルシートの編集③', link: '/4-create-your-book-in-vivliostyle-2/2-editing-style-sheets-3' },
-            { title: 'ページ背景の設定方法', link: '/4-create-your-book-in-vivliostyle-2/3-page-background-settings' },
-            { title: 'トンボ付きの印刷入稿用PDFを出力する方法', link: '/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks' },
-            { title: 'PDFの書き出し方', link: '/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf' },
-            { title: '挿絵としてイラストを入れる方法', link: '/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations' },
-            { title: 'イラスト画像をfigure要素にしない方法', link: '/4-create-your-book-in-vivliostyle-2/6-how-to-not-make-the-image-a-figure-element' },
-            { title: '表紙画像の作り方', link: '/4-create-your-book-in-vivliostyle-2/7-how-to-create-a-cover-image' },
+            { title: 'GoogleFontの使い方', link: '/ja/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont' },
+            { title: 'スタイルシートの編集③', link: '/ja/4-create-your-book-in-vivliostyle-2/2-editing-style-sheets-3' },
+            { title: 'ページ背景の設定方法', link: '/ja/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks' },
+            { title: 'トンボ付きの印刷入稿用PDFを出力する方法', link: '/ja/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks' },
+            { title: 'PDFの書き出し方', link: '/ja/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf' },
+            { title: '挿絵としてイラストを入れる方法', link: '/ja/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations' },
+            { title: 'イラスト画像をfigure要素にしない方法', link: '/ja/4-create-your-book-in-vivliostyle-2/6-how-to-not-make-the-image-a-figure-element' },
+            { title: '表紙画像の作り方', link: '/ja/4-create-your-book-in-vivliostyle-2/7-how-to-create-a-cover-image' },
           ],
         },
-        { title: '第4章 制作したデータの送り方', children: [
-{ title: 'データの制作要領',  link: 'データの制作要領](/5-how-to-send-the-created-data/1-data-creation-guidelines' },
-            { title: 'データの送付先', link: '/5-how-to-send-the-created-data/2-where-to-send-data' },
-            { title: '締切について',  link: '/5-how-to-send-the-created-data/3-deadline' },
+        {
+          title: '第5章 制作したデータの送り方', children: [
+            { title: 'データの制作要領', link: '/ja/5-how-to-send-the-created-data/1-data-creation-guidelines' },
+            { title: 'データの送付先', link: '/ja/5-how-to-send-the-created-data/2-where-to-send-data' },
+            { title: '締切について', link: '/ja/5-how-to-send-the-created-data/3-deadline' },
           ],
-        },
-      ],
+        },],
       overrides: {
         '/': {
           language: 'English',
@@ -104,55 +103,54 @@
             },
             {
               title: 'GitHub',
-              link: 'https://github.com/vivliostyle/vivliostyle-pub',
+              link: 'https://github.com/vivliostyle/vivliostyle-cli-helper-doc',
             },
           ],
           sidebar: [
             {
-              title: 'はじめに',
+              title: '第1章 最初にお読みください',
               children: [
-                { title: 'データのダウンロード', link: '/1-readme-first/about-this-document' },
+                { title: 'はじめに', link: '/ja/1-readme-first/about-this-document' },
               ],
             },
             {
-              title: '第1章 Vivliostyle入門',
+              title: '第2章 Vivliostyle入門',
               children: [
-                { title: 'データのダウンロード', link: '/2-introduction-to-vivliostyle/1-download-data' },
-                { title: 'VSCode機能拡張のインストール', link: '/introduction-to-vivliostyle/2-installing-extension' },
-                { title: 'vivliostyle-cil-helperの使い方', link: '/2-introduction-to-vivliostyle/3-how-to-use-vivliostyle-cil-helper' },
-                { title: 'スタイルシートの編集①', link: '/2-introduction-to-vivliostyle/4-editing-style-sheets-1' },
-                { title: 'Markdownファイルの編集', link: '/2-introduction-to-vivliostyle/5-editing-markdown-file' },
-                { title: 'スタイルシートの編集②', link: '/2-introduction-to-vivliostyle/6-editing-style-sheets-2' },
-                { title: 'H2見出しの直前で改ページする指定', link: '/2-introduction-to-vivliostyle/7-page-break-just-before-h2' },
+                { title: 'データのダウンロード', link: '/ja/2-introduction-to-vivliostyle/1-download-data' },
+                { title: 'VSCode機能拡張のインストール', link: '/ja/2-introduction-to-vivliostyle/2-installing-extension' },
+                { title: 'vivliostyle-cil-helperの使い方', link: '/ja/2-introduction-to-vivliostyle/3-how-to-use-vivliostyle-cil-helper' },
+                { title: 'スタイルシートの編集①', link: '/ja/2-introduction-to-vivliostyle/4-editing-style-sheets-1' },
+                { title: 'Markdownファイルの編集', link: '/ja/2-introduction-to-vivliostyle/5-editing-markdown-file' },
+                { title: 'スタイルシートの編集②', link: '/ja/2-introduction-to-vivliostyle/6-editing-style-sheets-2' },
               ],
             },
             {
-              title: '第2章 Vivliostyleで自分の本を作る-1',
+              title: '第3章 Vivliostyleで自分の本を作る-1',
               children: [
-                { title: '本文領域の設定方法', link: '/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area' },
-                { title: 'Markdownファイルの新規作成', link: '/3-create-your-book-in-vivliostyle-1/2-create-a-new-markdown-file' },
-                { title: '文書の保存', link: '/create-and-save-documents/save-document' },
-                { title: '見出し周りの装飾', link: '/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings' },
+                { title: '本文領域の設定方法', link: '/ja/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area' },
+                { title: 'Markdownファイルの新規作成', link: '/ja/3-create-your-book-in-vivliostyle-1/2-create-a-new-markdown-file' },
+                { title: '文書の保存', link: '/ja/3-create-your-book-in-vivliostyle-1/3-save-document' },
+                { title: '見出し周りの装飾', link: '/ja/3-create-your-book-in-vivliostyle-1/4-decoration-around-headings' },
               ],
             },
             {
-              title: '第3章 Vivliostyleで自分の本を作る-2',
+              title: '第4章 Vivliostyleで自分の本を作る-2',
               children: [
-                { title: 'GoogleFontの使い方', link: '/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont' },
-                { title: 'スタイルシートの編集③', link: '/4-create-your-book-in-vivliostyle-2/2-editing-style-sheets-3' },
-                { title: 'ページ背景の設定方法', link: '/4-create-your-book-in-vivliostyle-2/3-page-background-settings' },
-                { title: 'トンボ付きの印刷入稿用PDFを出力する方法', link: '/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks' },
-                { title: 'PDFの書き出し方', link: '/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf' },
-                { title: '挿絵としてイラストを入れる方法', link: '/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations' },
-                { title: 'イラスト画像をfigure要素にしない方法', link: '/4-create-your-book-in-vivliostyle-2/6-how-to-not-make-the-image-a-figure-element' },
-                { title: '表紙画像の作り方', link: '/4-create-your-book-in-vivliostyle-2/7-how-to-create-a-cover-image' },
+                { title: 'GoogleFontの使い方', link: '/ja/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont' },
+                { title: 'スタイルシートの編集③', link: '/ja/4-create-your-book-in-vivliostyle-2/2-editing-style-sheets-3' },
+                { title: 'ページ背景の設定方法', link: '/ja/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks' },
+                { title: 'トンボ付きの印刷入稿用PDFを出力する方法', link: '/ja/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks' },
+                { title: 'PDFの書き出し方', link: '/ja/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf' },
+                { title: '挿絵としてイラストを入れる方法', link: '/ja/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations' },
+                { title: 'イラスト画像をfigure要素にしない方法', link: '/ja/4-create-your-book-in-vivliostyle-2/6-how-to-not-make-the-image-a-figure-element' },
+                { title: '表紙画像の作り方', link: '/ja/4-create-your-book-in-vivliostyle-2/7-how-to-create-a-cover-image' },
               ],
             },
             {
-              title: '第4章 制作したデータの送り方', children: [
-                { title: 'データの制作要領', link: 'データの制作要領](/5-how-to-send-the-created-data/1-data-creation-guidelines' },
-                { title: 'データの送付先', link: '/5-how-to-send-the-created-data/2-where-to-send-data' },
-                { title: '締切について', link: '/5-how-to-send-the-created-data/3-deadline' },
+              title: '第5章 制作したデータの送り方', children: [
+                { title: 'データの制作要領', link: '/ja/5-how-to-send-the-created-data/1-data-creation-guidelines' },
+                { title: 'データの送付先', link: '/ja/5-how-to-send-the-created-data/2-where-to-send-data' },
+                { title: '締切について', link: '/ja/5-how-to-send-the-created-data/3-deadline' },
               ],
             },          ],
         },

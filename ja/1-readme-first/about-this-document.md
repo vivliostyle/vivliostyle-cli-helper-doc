@@ -1,135 +1,43 @@
-#  クイックスタートガイド 
+#  はじめに 
 
-## 必要環境 
+## 必須環境
 
-- Chromeブラウザ（PC版）が動作する環境であること
-- GitHubアカウントを既に取得していること（未取得の方はこちら→[GitHubアカウントの取得方法](/ja/advance-preparation/get-an-account#github%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AE%E5%8F%96%E5%BE%97%E6%96%B9%E6%B3%95)）
+- このドキュメントで説明されている操作を再現するための前提条件を以下に示す。
+    - 以下のソフトウェアがインストールされていること
+        - [Node.js（v16以上）](https://nodejs.org/ja)
+        - [VSCode（最新版）](https://azure.microsoft.com/ja-jp/products/visual-studio-code)
+    - インターネットに接続していること
 
-## 初期画面
+## このドキュメントの目的 
 
-以下のURLにアクセスすると、初期画面が表示されます。
+[一般社団法人ビブリオスタイル](https://vivliostyle.org/ja/)は、2023年8月26日に第1回Vivliostyleハンズオンセミナー（協力：欧文印刷株式会社）[『講師に教わりながら、Vivliostyleで本を作る！』](https://vivliostyle.org/ja/hands-on/1/)を開催した。そのアーカイブ動画はYouTubeで公開している。
 
-https://vivliostyle-pub-develop.vercel.app/
+1. [講師に教わりながら、Vivliostyleで本を作る！第1部](https://youtu.be/NdwVgr83q7Y)
+2. [講師に教わりながら、Vivliostyleで本を作る！ 第2部-1](https://youtu.be/SrlJI5rKTbo)
+3. [講師に教わりながら、Vivliostyleで本を作る！ 第2部-2](https://youtu.be/VnwddnaSsik)
+4. [MyBooksPOD のご紹介／印刷しやすい原稿の作成方法（松尾孝行：欧文印刷株式会社）](https://youtu.be/kIiUlq5JHvw)
+5. [講師に教わりながら、Vivliostyleで本を作る！ 第2部-3](https://youtu.be/DStotKNSyfE)
 
-![](images/readme-first/fig-1.png)
+動画を見直して感じたことは、[vivliostyle-cli-helper](https://marketplace.visualstudio.com/items?itemName=Libroworks.vivliostyle-cli-helper)というVSCode機能拡張がとてもよく出来ていることだ。今まで玄人受けはしても、とかく導入しにくさを指摘されてきたVivliostyle CLIだが、これによってコマンドラインでタイプしなくとも使えるようになった。この点、セミナーで講師も務めてくださった作者の[大津雄一郎（リブロワークス）](https://libroworks.co.jp/?author=2)氏に、改めて感謝したい。
 
-1. ……「Login」ボタンを押して、GitHubアカウントでログインしてください（→[GitHubアカウントの取得方法](/ja/advance-preparation/get-an-account#github%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AE%E5%8F%96%E5%BE%97%E6%96%B9%E6%B3%95)）
-2. ……言語メニューから使用言語を選択することができます（English / 日本語）
-3. ……ユーザーガイド（本文書）を表示します
+ただしその反面、セミナーではCSSやHTMLの基礎などは既に知っている前提で、細かな作業の説明がしばしば省略されている。もしやこの点が、初めて使うユーザを混乱させないだろうか。
 
+そこで、上記動画に沿いつつ、セミナーでは省略された手順もしつこく再現した文書を制作し、これをフォローアップ用教材としてセミナー受講者に提供することにしたのがこのドキュメントである。
 
+もちろん、対象はセミナー受講者に留まらない。Vivliostyle CLIを手軽に使い始めたいと考えた人なら誰でも、このドキュメントに目を通すことで（手元のPCで再現すればなおさら）vivliostyle-cli-helperの使い方とそのメリットが納得できるだろう。
 
-## リポジトリとブランチの選択
+## このドキュメントの読み方
 
-ログインしたら、以下の画面でリポジトリを選択してください。リポジトリに複数のブランチがある場合はブランチも選択できます。公開リポジトリは“Public”、非公開は“Private” と表示されます。
+このドキュメントの構成と動画の対応関係を以下に示す。なお、上記4と5の動画はハンズオンではないので、このドキュメントの対象から外している。
 
-![](images/readme-first/fig-2.png)
+- 第2章……[講師に教わりながら、Vivliostyleで本を作る！第1部](https://youtu.be/NdwVgr83q7Y)
+- 第3章……[講師に教わりながら、Vivliostyleで本を作る！ 第2部-1](https://youtu.be/SrlJI5rKTbo)
+- 第4章、第5章……[講師に教わりながら、Vivliostyleで本を作る！ 第2部-2](https://youtu.be/VnwddnaSsik)
 
-1. ……GitHubアプリのインストール（→[最初のログインで必要な作業](/ja/advance-preparation/login.md)）
-2. ……GitHubアクセス・トークンのリフレッシュ（→[最初のログインで必要な作業](/ja/advance-preparation/login.md)）
-3. ……GitHubアカウントのユーザー名（[GitHub > Settings > Public profile](https://github.com/settings/profile)）
-4. ……言語メニュー（English / 日本語）
-5. ……ユーザーガイド（本文書）の表示
-6. ……リポジトリ表示の更新
-7. ……リポジトリの選択
+それぞれの文書中で、**カッコで括った太字の数字**は対応する動画の再生時間を示している。これを目安にすれば、動画を確認しながら読み進められるだろう。
 
-いずれかのリポジトリ（ 7 ）をクリックすると、自動的にエディタ／プレビュー画面に遷移します。
+また、動画だけでなく、セミナーの教科書となった[『CSS組版 Vivliostyle入門』（リブロワークス、C&R研究所、2023年）](https://libroworks.co.jp/?p=6956)の、**対応するページ番号**も掲載している。当日のセミナーでは時間の都合もあり、書籍を作るためのすべての指定については説明しきれなかった。足りない部分は単行本で補っていただこうという意図もある。
 
-## ログアウト／利用者アンケートの送付／不具合のフィードバック
+このドキュメントに掲載したスクリーンショットはMacで撮影したものだが、Windows、Linuxでも同様の画面になるはずだ。万が一相違している場合は、お手数だが以下までご一報いただければ幸いだ。他にも疑問、質問、感想などを知らせてもらえると、制作者一同、大変喜びます。
 
-GitHubアカウントのユーザー名をクリックすると、プルダウンメニューが表示されます。ログアウトはメニュー項目の一番下です。これを選択すると、ログアウトして初期画面に戻ります。また、このメニューから利用者アンケートの送付や不具合のフィードバックができます。ぜひご利用ください。
-
-![](images/readme-first/fig-3.png)
-
-1. ……利用者アンケートの送付
-2. ……不具合のフィードバック
-3. ……ログアウト
-
-## エディタ／プレビュー画面
-
-![](images/readme-first/fig-4.png)
-
-**ペイン境界線の移動**：ファイル一覧ペイン、エディタ・ペイン、プレビュー・ペインの境界線は変更できます。それぞれの区画の境界線上にマウスカーソルを置いてください。左右矢印「↔」の形状に変わったところでマウスボタンをプレスしたまま右か左にドラッグすると、境界線が左右に移動します。
-
-### メニュー・エリア
-
-![](images/readme-first/fig-5.png)
-
-1. ……ユーザー名 / リポジトリ名
-2. ……ブランチ切り替えメニュー
-3. ……ファイル保存ボタン
-4. ……GitHubアカウントのユーザー名（プルダウンメニュー→アンケート送付／フィードバック／ログアウト）
-5. ……言語メニュー（English / 日本語）
-6. ……ユーザーガイド（本文書）の表示
-7. ……ファイル一覧ペインの表示／非表示
-8. ……エディタ・ペインの表示／非表示
-9. ……プレビュー・ペインの表示／非表示
-10. ……Actionメニュー
-
-Actionメニューをプルダウンすると、下記のような操作が可能です。
-
-- Setting（設定）
-    - [Presentation mode](/ja/functions-of-the-actions-menu/setting.md#presentation-modeプレゼンテーション・モード)
-    - [Auto reload](/ja/functions-of-the-actions-menu/setting.md#auto-reload自動再読み込み)
-- Theme（スタイル情報の選択）
-    - [Plain theme](/ja/functions-of-the-actions-menu/theme.md#plain-theme)
-    - [Custom theme](/ja/functions-of-the-actions-menu/theme.md#custom-theme)
-    - [Book theme for latin font](/ja/functions-of-the-actions-menu/theme.md#book-theme-for-latin-font)
-    - [文庫用のテーマ](/ja/functions-of-the-actions-menu/theme.md#文庫用のテーマ)
-    - [Slide theme](/ja/functions-of-the-actions-menu/theme.md#slide-theme)
-    - [ Techbook (技術同人誌) theme](/ja/functions-of-the-actions-menu/theme.md#techbook-技術同人誌-theme)
-    -[Academic theme](/ja/functions-of-the-actions-menu/theme.md#academic-theme)
-- Add files（ファイルの追加）
-    - [Add Image（画像ファイルの追加）](/ja/functions-of-the-actions-menu/add-files.md#add-image画像ファイルの追加)
-- Export（出力）
-    - [PDF](/ja/functions-of-the-actions-menu/export.md#pdf)
-- Help（ヘルプ）
-    - [ VFM Spec（Vivliostyle Flavored Markdown仕様の表示）](/ja/functions-of-the-actions-menu/help.md#vfm-specvivliostyle-flavored-markdown仕様の表示)
-
-
-### ファイル一覧ペイン
-
-![](images/readme-first/fig-6.png)
-
-1. ……リポジトリ内のファイル名を検索
-2. ……リポジトリのファイル一覧を再取得
-3. ……![](https://github.com/microsoft/vscode-codicons/raw/main/src/icons/arrow-up.svg) リポジトリにファイルをアップロード
-4. ……![](https://github.com/microsoft/vscode-codicons/raw/main/src/icons/new-folder.svg) リポジトリにフォルダを新規作成
-5. ……![](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/src/icons/new-file.svg) リポジトリにファイルを新規作成
-6. ……現在編集中のファイル（**太字**）
-7. ……リポジトリ内のファイル一覧
-
-
-- **アイコン種別一覧**
-  - ![](https://raw.githubusercontent.com/astrit/css.gg/master/icons/svg/corner-left-up.svg)……上位フォルダへ移動
-  - ![](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/src/icons/folder.svg)……フォルダ
-  - ![](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/src/icons/file-media.svg)……画像ファイル
-  - ![](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/src/icons/code.svg)……HTMLファイル
-  - ![](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/src/icons/symbol-namespace.svg)……CSSファイル
-  - ![](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/src/icons/markdown.svg)……Markdownファイル
-  - ![](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/src/icons/settings-gear.svg)……vivliostyle.config.js
-  - ![](https://raw.githubusercontent.com/microsoft/vscode-codicons/main/src/icons/file.svg)……その他のファイル
-
-
-各種ファイル操作の詳細は下記をご参照ください。
-
-- [ファイル一覧ペインからの操作](/ja/file-and-folder-operations/file-list-pane-operations.md)
-
-
-
-### プレビュー・ペイン
-
-![](images/readme-first/fig-7.png)
-
-1. ……ファイル内の文字列を検索
-2. ……ページ移動ボタン（左から先頭ページへ移動、前のページへ移動、後のページへ移動、末尾ページへ移動／単一ページの場合はグレイアウト）
-3. ……ページカウンター（現在のページ／総ページ）
-4. ……文字サイズ変更（左から小さく、大きく、デフォルト）
-5. ……ズーム（左から縮小、拡大、等倍、フィットページ）
-6. ……ページ移動スライドバー
-
-## ログの表示 
-
-![](images/readme-first/fig-8.png)
-
-画面下端付近でマウスポインタを動かし、ポインタの形状が上下矢印「↕」に変わったところで、マウスボタンをプレスしたまま上方にドラッグするとログが現れます。
+- [Vivliostyle Slack (#q-and-a)](https://join.slack.com/t/vivliostyle/shared_invite/enQtNzc1NjE4ODk1ODI5LWQxZjM4YTZjMmQ0ZTUyNmUyOGZlMzIwZjQ5OWYwYjkyZDZmOTIwNGMwOWU5NDc0NjE5OTAyMmVhZTRhYTAyNWQ)
