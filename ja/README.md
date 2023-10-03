@@ -1,6 +1,6 @@
 # vivliostyle-cli-helper を使った本作り
 
-## 第1章
+## 第1章 最初にお読みください
 
 - [このドキュメントの成り立ちと読み方](/1-readme-first/about-this-document.md)
 
