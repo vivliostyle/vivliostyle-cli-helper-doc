@@ -7,7 +7,7 @@
 ## 第2章 Vivliostyle入門
 
 - [データのダウンロード](/2-introduction-to-vivliostyle/1-download-data.md)
-- [VSCode機能拡張のインストール](/introduction-to-vivliostyle/2-installing-extension.md)
+- [VSCode機能拡張のインストール](/2-introduction-to-vivliostyle/2-installing-extension.md)
 - [vivliostyle-cil-helperの使い方](/2-introduction-to-vivliostyle/3-how-to-use-vivliostyle-cil-helper.md)
 - [スタイルシートの編集①](/2-introduction-to-vivliostyle/4-editing-style-sheets-1.md)
 - [Markdownファイルの編集](/2-introduction-to-vivliostyle/5-editing-markdown-file.md)
@@ -35,4 +35,3 @@
 - [データの制作要領](/5-how-to-send-the-created-data/1-data-creation-guidelines.md)
 - [データの送付先](/5-how-to-send-the-created-data/2-where-to-send-data.md)
 - [締切について](/5-how-to-send-the-created-data/3-deadline.md)
-
