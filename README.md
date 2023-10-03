@@ -22,17 +22,16 @@
 
 ## 第3章 Vivliostyleで自分の本を作る-2
 
-- [GoogleFontの使い方](/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont.md)
-- [スタイルシートの編集③](/4-create-your-book-in-vivliostyle-2/2-editing-style-sheets-3.md)
-- [ページ背景の設定方法](/4-create-your-book-in-vivliostyle-2/3-page-background-settings.md)
-- [トンボ付きの印刷入稿用PDFを出力する方法](/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks.md)
-- [PDFの書き出し方](/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf.md)
-- [挿絵としてイラストを入れる方法](/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations.md)
-- [イラスト画像をfigure要素にしない方法](/4-create-your-book-in-vivliostyle-2/6-how-to-not-make-the-image-a-figure-element.md)
-- [表紙画像の作り方](/4-create-your-book-in-vivliostyle-2/7-how-to-create-a-cover-image.md)
+- [GoogleFontの使い方](./ja/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont.md)
+- [ページ背景の設定方法](./ja/4-create-your-book-in-vivliostyle-2/2-page-background-settings.md)
+- [トンボ付きの印刷入稿用PDFを出力する方法](./ja/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks.md)
+- [PDFの書き出し方](./ja/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf.md)
+- [挿絵としてイラストを入れる方法](./ja/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations.md)
+- [イラスト画像をfigure要素にしない方法](./ja/4-create-your-book-in-vivliostyle-2/6-how-to-not-make-the-image-a-figure-element.md)
 
 ## 第4章 制作したデータの送り方
 
-- [データの制作要領](/5-how-to-send-the-created-data/1-data-creation-guidelines.md)
-- [データの送付先](/5-how-to-send-the-created-data/2-where-to-send-data.md)
-- [締切について](/5-how-to-send-the-created-data/3-deadline.md)
+- [表紙画像の作り方](./ja/5-how-to-send-the-created-data/1-how-to-create-a-cover-image.md)
+- [データの制作要領](./ja/5-how-to-send-the-created-data/2-data-creation-guidelines.md)
+- [データの送付先](./ja/5-how-to-send-the-created-data/3-where-to-send-data.md)
+- [締切について](./ja/5-how-to-send-the-created-data/4-deadline.md)
