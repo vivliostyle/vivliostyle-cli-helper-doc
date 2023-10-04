@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Googleフォントの使い方
 
 ## 
@@ -22,3 +23,8 @@
 
 ![](./images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-10.png)
 
+=======
+# 
+
+## 
+>>>>>>> main

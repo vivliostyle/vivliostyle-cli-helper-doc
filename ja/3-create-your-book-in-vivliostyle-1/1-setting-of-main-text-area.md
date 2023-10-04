@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 本文領域の設定方法
 
 ## 
@@ -29,3 +30,8 @@
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-13.png)
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-14.png)
+=======
+# 
+
+## 
+>>>>>>> main
