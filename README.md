@@ -25,8 +25,7 @@
 - [ページ背景の設定方法](/4-create-your-book-in-vivliostyle-2/2-page-background-settings.md)
 - [トンボの設定方法](/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks.md)
 - [PDFの書き出し方](/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf.md)
-- [挿絵としてイラストを入れる方法](/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations.md)
-- [イラスト画像をfigure要素にしない方法](/4-create-your-book-in-vivliostyle-2/6-how-to-not-make-the-image-a-figure-element.md)
+- [イラストの設定方法](/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations.md)
 
 ## 第5章 制作したデータの送り方
 
