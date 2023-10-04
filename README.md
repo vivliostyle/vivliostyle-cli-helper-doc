@@ -30,6 +30,5 @@
 ## 第5章 制作したデータの送り方
 
 - [表紙画像の作り方](/5-how-to-send-the-created-data/1-how-to-create-a-cover-image.md)
-- [データの制作要領](/5-how-to-send-the-created-data/2-data-creation-guidelines.md)
-- [データの送付先](/5-how-to-send-the-created-data/3-where-to-send-data.md)
-- [締切について](/5-how-to-send-the-created-data/4-deadline.md)
+- [奥付の作り方](/5-how-to-send-the-created-data/2-how-to-make-a-colophon.md)
+- [データの制作要領](/5-how-to-send-the-created-data/3-data-creation-guidelines.md)
