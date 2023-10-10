@@ -19,3 +19,7 @@
 ![](/images/5-how-to-send-the-created-data/1-how-to-create-a-cover-image/5-1-6.png)
 
 ![](/images/5-how-to-send-the-created-data/1-how-to-create-a-cover-image/5-1-7.png)
+
+![](/images/5-how-to-send-the-created-data/1-how-to-create-a-cover-image/5-1-8.png)
+
+![](/images/5-how-to-send-the-created-data/1-how-to-create-a-cover-image/5-1-9.png)
