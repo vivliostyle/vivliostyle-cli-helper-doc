@@ -1,6 +1,6 @@
 # Google Fontsの使い方
 
-## Google Fontsでフォントを選択
+## フォントの選択
 
 - [Google Fonts](https://fonts.google.com/)のカタログページを表示します。
 - 「Filter」（赤丸）ボタンをクリックします。
@@ -27,7 +27,7 @@
 
 ![](./images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-5.png)
 
-## コードをスタイルシートにコピー
+## 選択したフォントのコードをコピー
 
 - すると「Selected family」（赤矢印／選択されたフォント・ファミリー）のペインが開きます。
 - 先ほどクリックしたフォントとそのウェイトが青い文字で表示され（大赤丸）、これが選択されていることを示しています。
@@ -50,6 +50,8 @@
 5. 見出し用として選択したフォント名の文字列を、シングルクォートごとコピーします。
 
 ![](./images/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont/4-1-8.png)
+
+## スタイルシートにコードをペースト
 
 1. page_settings.cssを開きます。
 2. 2行目に、前項手順3でコピーしたコードをペーストします。
