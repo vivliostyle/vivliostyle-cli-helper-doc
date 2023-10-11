@@ -21,7 +21,7 @@
 
 ## 第4章 Vivliostyleで自分の本を作る-2
 
-- [GoogleFontの使い方](/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont.md)
+- [Google Fontの使い方](/4-create-your-book-in-vivliostyle-2/1-how-to-use-googlefont.md)
 - [ページ背景の設定方法](/4-create-your-book-in-vivliostyle-2/2-page-background-settings.md)
 - [トンボの設定方法](/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks.md)
 - [PDFの書き出し方](/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf.md)

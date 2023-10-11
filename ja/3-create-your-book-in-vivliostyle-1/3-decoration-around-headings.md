@@ -60,7 +60,7 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-12.png)
 
-- 今度はヨコの位置はうまくいきました。しかし、タテの位置が少しだけ上すぎるようです。
+- 今度はヨコの位置はうまくいきました。しかし、タテの位置が少しだけ上がりすぎたようです。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-13.png)
 
@@ -68,7 +68,7 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-14.png)
 
-- 失敗。タテの位置が下すぎになってしまいました。
+- 失敗。タテの位置が下がりすぎてしまいました。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-15.png)
 
@@ -80,6 +80,6 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-17.png)
 
-- devツールの表示を確認してみましょう。イラスト画像の本来の位置はオレンジ色の部分に該当し、ここからのタテとヨコのオフセット量をそれぞれ値として指定しています。
+- devツールの表示を確認してみましょう。イラスト画像の本来の位置（H2の疑似要素）は水色の部分に該当し、ここからのタテとヨコのオフセット量をそれぞれ値として指定しています。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-18.png)
