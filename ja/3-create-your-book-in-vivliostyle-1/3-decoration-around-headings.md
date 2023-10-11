@@ -12,7 +12,8 @@
 
 ## main.css87行目の`h2::before {`以下を書き換える**（16:41）**
 
-- 89行目`background: url("…");`のうち、`"`と`"`に囲まれた部分のpathを、表示させたい画像のpathに書き換えます。
+- `h2::before`をふくむ赤四角部分は、H2見出しのスタイルを定義している部分です。ここを書き換えることで、H2見出しを装飾していきます。
+- まず、89行目`background: url("…");`のうち、`"`と`"`に囲まれた部分のpathを、表示させたい画像のpathに書き換えてみましょう。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-3.png)
 
@@ -25,7 +26,7 @@
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-5.png)
 
 - 92行目の`block-size:`の値を`24mm`から`40mm`に変更してみる（赤四角）。
-    - **補足**：`block-size:`は、当該イラストを含むブロックの、書字方向から見てタテのサイズを指定するプロパティです。**（17:44）**
+    - **補足**：`block-size:`は、当該イラストを含むブロックの、書字方向がヨコの場合はタテの、タテの場合はヨコのサイズを指定するプロパティです。**（17:44）**
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-6.png)
 
@@ -35,7 +36,7 @@
 
 - 先の`block-size:`の値を`24mm`に戻します。
 - 93行目の`inline-size:`の値を`24mm`から`40mm`に変更します（赤四角）。
-    - **補足**：`inline-size:`は、当該イラストを含むブロックの、書字方向から見てヨコのサイズを指定するプロパティです。**（17:44）**
+    - **補足**：`inline-size:`は、当該イラストを含むブロックの、書字方向がヨコの場合はヨコの。タテの場合はヨコのサイズを指定するプロパティです。**（17:44）**
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-8.png)
 
@@ -59,7 +60,7 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-12.png)
 
-- 今度は書字方向からみてヨコの距離はうまくいきました。しかし、タテの距離が少しだけ上すぎるようです。
+- 今度はヨコの位置はうまくいきました。しかし、タテの位置が少しだけ上すぎるようです。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-13.png)
 
@@ -67,7 +68,7 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-14.png)
 
-- 失敗。タテの距離が下すぎてしまいました。
+- 失敗。タテの位置が下すぎになってしまいました。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-15.png)
 
