@@ -35,7 +35,7 @@
 
 ## ファイルの先頭に、`ginga.md`のフロントマターをコピペする**（10:47）**
 
-1. フロントマターから第1章で使った`ginga.md`（赤丸）を選択して開きます。
+1. フロントマターから第2章で使った`ginga.md`（赤丸）を選択して開きます。
 2. `ginga.md`冒頭の`---`で囲まれた部分（フロントマター）をコピーします（赤四角）。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/2-create-a-new-markdown-file/3-2-7.png)

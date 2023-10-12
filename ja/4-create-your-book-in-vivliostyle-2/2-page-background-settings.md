@@ -2,24 +2,25 @@
 
 1. page_settings.cssを開きます**（14:31）**
 2. 55行目、`@page: left {`以下を編集することで、左ページのスタイルを設定します。
-3. 56行目`/* background: url("img/R4_cssbk_smp_pageallbg_l.png"); */`とある行にカーソルを置いた状態で、Macでは`command`+`/`、Windowsでは`Ctrl`+`/`を入力します。
+3. 56行目`/* background: url("img/R4_cssbk_smp_pageallbg_l.png"); */`とある行（赤矢印）にカーソルを置いた状態で、Macでは`command`+`/`、Windowsでは`ctrl`+`/`を入力します。
 
 ![](./images/4-create-your-book-in-vivliostyle-2/2-page-background-settings/4-2-1.png)
 
 4. コメントアウトが外れました。
-  - ソースコードの一部をプログラムとして無効な状態にすることを「コメントアウト」といいます。CSSでは`/*`と`*/`で囲むことでコメントアウトできます。
-  - 反対に、有効な状態に戻すことを「コメントアウトを外す」といいます。
+  - ソースコードの一部をプログラムとして無効な状態にすることを「コメントアウト」といいます。CSSでは`/*`と`*/`で囲むとコメントアウトできます。
+  - ショートカットはMacでは`command`+`/`、Windowsでは`Ctrl`+`/`です。
+  - つまりコメントアウトとその解除がトグル（同じ操作で2つの状態が交互に切り替わる）になっています。
 
 ![](./images/4-create-your-book-in-vivliostyle-2/2-page-background-settings/4-2-2.png)
 
-5. 56行目を修正していきます。文字列`background`の右端にカーソルを置いた状態で、ハイフン`-`を入力すると、VSCodeのサジェスト機能が働いて、`background-`に続く可能性のあるプロパティ候補が表示されます。
+5. 56行目を修正していきます。文字列`background`の右端にカーソルを置いた状態で、ハイフン`-`を入力すると、VSCodeのサジェスト機能が働いて、`background-`に続く可能性のあるプロパティ候補が表示されます。**（18:27）**
   - 矢印キーでメニュー項目を移動、エンターキーで選択できます。
   - ここでは`background-color`を選択します。
 
 ![](./images/4-create-your-book-in-vivliostyle-2/2-page-background-settings/4-2-3.png)
 
-7. つづいて`background-color`の値を指定します。
-  - `background-color`の右端にカーソルを置いた状態でコロン`:`を入力すると、VSCodeのサジェスト機能が働いて、`background-color`に続く可能性のある、カラーを示す値の候補が表示されます。
+7. つづいて`background-color`の値（色）を指定します。
+  - `background-color`の右端にカーソルを置いた状態でコロン`:`を入力すると、VSCodeのサジェスト機能が働いて、`background-color`に続く可能性のある、値（色）の候補が表示されます。
   - 前項と同様に矢印キーでメニュー項目を移動、エンターキーで選択できます。
 
 ![](./images/4-create-your-book-in-vivliostyle-2/2-page-background-settings/4-2-4.png)
