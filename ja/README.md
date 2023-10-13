@@ -26,9 +26,9 @@
 - [トンボの設定方法](/ja/4-create-your-book-in-vivliostyle-2/3-how-to-add-trim-marks.md)
 - [PDFの書き出し方](/ja/4-create-your-book-in-vivliostyle-2/4-how-to-output-pdf.md)
 - [画像の設定方法](/ja/4-create-your-book-in-vivliostyle-2/5-how-to-include-illustrations.md)
+- [奥付の作り方](/ja/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon.md)
 
 ## 第5章 制作したデータの送り方
 
 - [表紙画像の作り方](/ja/5-how-to-send-the-created-data/1-how-to-create-a-cover-image.md)
-- [奥付の作り方](/ja/5-how-to-send-the-created-data/2-how-to-make-a-colophon.md)
-- [データの制作要領](/ja/5-how-to-send-the-created-data/3-data-creation-guidelines.md)
+- [データの制作要領](/ja/5-how-to-send-the-created-data/2-data-creation-guidelines.md)
