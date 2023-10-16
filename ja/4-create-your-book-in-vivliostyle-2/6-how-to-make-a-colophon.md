@@ -24,7 +24,7 @@
 
 - div要素を使ってスタイルを指定し、奥付のブロックを版面（テキストエリア）下端に配置してみましょう。
 
-```css
+```html
 <div style="float-reference: page; float: block-end;">
 </div>
 ```
@@ -34,6 +34,17 @@
 - いい感じになりました。
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-7.png)
+
+- **補足：**ここでは奥付のブロックをテキストエリア下端に揃えましたが、同じ記法を使って画像等をテキストエリア下端に揃えることもできます。その場合は画像を指定する行の前後ををdivで包みます。なお、テキストエリア上端に揃えたい場合は`block-start`をお使いください。
+
+```html
+<div style="float-reference: page; float: block-end;">
+
+![明治28年に竣工した千代ヶ崎砲台跡](img/IMG_8510.png)
+
+</div>
+```
+
 
 ## 白紙ページの入れ方**（24:50）**
 
