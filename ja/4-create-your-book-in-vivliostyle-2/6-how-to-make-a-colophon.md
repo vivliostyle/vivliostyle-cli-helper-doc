@@ -22,7 +22,12 @@
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-5.png)
 
-- `<div style="xxx: xxx;"></div>`を使って版面下端に配置してみましょう。
+- div要素を使ってスタイルを指定し、奥付のブロックを版面（テキストエリア）下端に配置してみましょう。
+
+```css
+<div style="float-reference: page; float: block-end;">
+</div>
+```
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-6.png)
 
@@ -36,8 +41,10 @@
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-8.png)
 
-- 奥付の前で改ページできました。このハイフン3つ`---`を使って、白紙ページを任意の場所に入れて、ページ数を増やして調整することもできます。
+- 奥付の前で改ページできました。
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-9.png)
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-10.png)
+
+- **補足：**この方法を使って白紙ページを任意の場所に入れることで、ページ数を調整することもできます。
