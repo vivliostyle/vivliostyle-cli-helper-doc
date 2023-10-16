@@ -1,4 +1,4 @@
-# 奥付の作り方
+# 奥付と白紙ページ
 
 ## 奥付の作り方
 
@@ -22,7 +22,12 @@
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-5.png)
 
-- `<div style="xxx: xxx;"></div>`を使って版面下端に配置してみましょう。
+- div要素を使ってスタイルを指定し、奥付のブロックを版面（テキストエリア）下端に配置してみましょう。
+
+```html
+<div style="float-reference: page; float: block-end;">
+</div>
+```
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-6.png)
 
@@ -30,14 +35,27 @@
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-7.png)
 
+- **補足：**ここでは奥付のブロックをテキストエリア下端に揃えましたが、同じ記法を使って画像等をテキストエリア下端に揃えることもできます。その場合は画像を指定する行の前後ををdivで包みます。なお、テキストエリア上端に揃えたい場合は`block-start`をお使いください。
+
+```html
+<div style="float-reference: page; float: block-end;">
+
+![明治28年に竣工した千代ヶ崎砲台跡](img/IMG_8510.png)
+
+</div>
+```
+
+
 ## 白紙ページの入れ方**（24:50）**
 
 - 奥付の前で改ページしてみましょう。このスタイルシートでは、ハイフン3つ`---`で改ページになるよう設定されています（赤丸）。
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-8.png)
 
-- 奥付の前で改ページできました。このハイフン3つ`---`を使って、白紙ページを任意の場所に入れて、ページ数を増やして調整することもできます。
+- 奥付の前で改ページできました。
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-9.png)
 
 ![](/images/4-create-your-book-in-vivliostyle-2/6-how-to-make-a-colophon/4-6-10.png)
+
+- **補足：**この方法を使って白紙ページを任意の場所に入れることで、ページ数を調整することもできます。
