@@ -28,35 +28,33 @@
 
 - ここからスタイルシートの中の本文領域に関わるプロパティを書き換えて、それぞれの役割を確認していきましょう
 - 13行目、`:root {`以下が本文領域に関わる指定です
-- まず、`--line-height:`の値を`40Q`に書き換えて、プレビューを確認してみましょう**（4:18）**
-    - **補足** この時、接頭辞`--`は[変数（カスタムプロパティ）](https://developer.mozilla.org/ja/docs/Web/CSS/Using_CSS_custom_properties)であることを表します。これはユーザーによって定義された（カスタマイズされた）再利用可能なプロパティです。**もう具体的に詳しく、プロパティとの違いの説明が必要**
+- まず、行送りの値である`--line-height:`を`40Q`に書き換えて、プレビューを確認してみましょう**（4:18）**
+    - **補足** --（ハイフン2つ）で始まる部分は、変数（カスタムプロパティ）というものです。変数に本文の文字サイズ、行送り、1行文字数、1ページ行数、マージンを指定すると、それをもとに自動計算して本文領域のスタイルが自動設定されるようになっています。カスタムプロパティについて詳しく知りたい方は、以下を参照してください。
+        - [CSS カスタムプロパティ（変数）の使用［MDN］](https://developer.mozilla.org/ja/docs/Web/CSS/Using_CSS_custom_properties)
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-5.png)
 
-- この時プレビューは以下のようになります。行送りが極端に広くなったことが確認できます**（4:36）**
-- つまり、`--line-height:`は行送りの指定です
+- この時プレビューは以下のようになります。行送りが40Q、1ページ行数が20だとページに収まり切らないため、溢れてしまっています。**（4:36）**
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-6.png)
 
-- つぎに`--line-height:`の値を`24Q`に戻した上で、`--letters-per-line:`を40に減らしてみましょう**（5:20）**
+- つぎに`--line-height:`の値を`24Q`に戻した上で、1行の字詰めの値である`--letters-per-line:`を、`40`に減らしてみましょう**（5:20）**
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-7.png)
 
-- この時プレビューは以下のようになります。1ページ当たりの行数が減ったことが確認できます。
-- つまり、`--letters-per-line:`は1行の字詰めの指定です**（5:39）**
+- この時プレビューは以下のようになります。字詰めが減ったことが確認できます。**（5:39）**
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-8.png)
 
-- つぎに`--lines-per-page:`を`15`に減らしてみましょう。
+- つぎに1ページ当たりの行数の値である`--lines-per-page:`を、`15`に減らしてみましょう。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-9.png)
 
-- 1ページ当たり15行になったことが確認できます。
-- つまり、`--lines-per-page:`は1ページの行数の指定です
+- 1ページ当たり15行になりました。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-10.png)
 
-- つぎに`--page-margin-top:`を`30mm`に増やしてみましょう**（6:52）**
+- つぎに上側マージンを指定する値である`--page-margin-top:`を、`30mm`に増やしてみましょう**（6:52）**
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-11.png)
 
@@ -64,10 +62,10 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-12.png)
 
-- つぎに`--page-margin-xshift:`を`4mm`に変更してみましょう**（7:36）**
+- つぎにノド側から小口側に本文領域をシフトさせる`--page-margin-xshift:`を、`4mm`に変更してみましょう**（7:36）**
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-13.png)
 
-- ノド側のマージンが広がった（ノド側に本文領域がシフトした）ことがわかります。
+- ノド側のマージンが広がったことがわかります。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/1-setting-of-main-text-area/3-1-14.png)

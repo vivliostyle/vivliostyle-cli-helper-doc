@@ -80,6 +80,7 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-17.png)
 
-- devツールの表示を確認してみましょう。イラスト画像の本来の位置（H2の疑似要素）は水色の部分に該当し、ここからのタテとヨコのオフセット量をそれぞれ値として指定しています。
+- Developer Toolsの表示を確認してみましょう。イラスト画像の本来の位置（H2の疑似要素）は水色の部分に該当し、ここからのタテとヨコのオフセット量をそれぞれ値として指定しています。
+    - ショートカットは、Macでは`option`+`command`+`i`、Windowsでは`option`+`Ctrl`+`i`です。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/3-decoration-around-headings/3-3-18.png)

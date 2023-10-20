@@ -29,7 +29,7 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/2-create-a-new-markdown-file/3-2-5.png)
 
-- プレビューが表示されました。この時、スタイルはデフォルトのスタイルシートが適用されるので、ページ分割はされていません。
+- プレビューが表示されました。見て分かるように、前節まで書いてきたスタイルシートは適用されていないことにご注意ください。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/2-create-a-new-markdown-file/3-2-6.png)
 
@@ -44,6 +44,6 @@
 
 ![](/images/3-create-your-book-in-vivliostyle-1/2-create-a-new-markdown-file/3-2-8.png)
 
-4. 「vivliostyle-cli-helper」でプレビューしてみると（操作は前項「Markdownファイルを開き、プレビューを表示させる」参照）、`ginga.md`のスタイルシートがそのまま新しいMarkdownファイルにも適用されるようになり、ページ分割がされるようになりました。
+4. 「vivliostyle-cli-helper」でプレビューしてみると（操作は前項「Markdownファイルを開き、プレビューを表示させる」参照）、`ginga.md`のスタイルシートがそのまま新しいMarkdownファイルにも適用されるようになりました。
 
 ![](/images/3-create-your-book-in-vivliostyle-1/2-create-a-new-markdown-file/3-2-9.png)
