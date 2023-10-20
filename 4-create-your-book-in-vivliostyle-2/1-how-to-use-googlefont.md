@@ -1,6 +1,7 @@
 # Google Fontsの使い方
 
 - 本章から括弧内の数字は[「講師に教わりながら、Vivliostyleで本を作る！ 第2部-2」](https://youtu.be/VnwddnaSsik?si=KlrmYX17cc3VN1wc)の再生時間になります。
+- なお、Google Fontsの画面は執筆時点（2023年10月4日）のものであり、セミナーの開催時、そして『CSS組版 Vivliostyle入門』とも異なることをお断りします。
 
 ## フォントの選択
 

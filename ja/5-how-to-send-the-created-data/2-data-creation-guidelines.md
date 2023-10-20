@@ -25,7 +25,7 @@
     - メールとは別に、印刷した本の送り先の住所と問い合わせ用電話番号を、下記アンケートに回答する形でお知らせください。あわせてセミナーについて率直な感想をいただければ幸いです。
       - [第1回Vivliostyleハンズオンセミナー参加者アンケート](https://docs.google.com/forms/d/e/1FAIpQLSeXhmizJS-1l149CJ73x2ZZ5qSqJyOylSw4Xw-iw3B-9W2ajw/viewform?usp=pp_url)
   - 送付の締切
-    - 2023年11月〓日
+    - 2023年11月20日
   - サポート
     - 分からないことがあれば上記メールアドレスか、VivliostyleのSlack #q-and-a チャンネルでご質問ください。
       - [Vivliostyle Slack](https://join.slack.com/t/vivliostyle/shared_invite/enQtNzc1NjE4ODk1ODI5LWQxZjM4YTZjMmQ0ZTUyNmUyOGZlMzIwZjQ5OWYwYjkyZDZmOTIwNGMwOWU5NDc0NjE5OTAyMmVhZTRhYTAyNWQ)
