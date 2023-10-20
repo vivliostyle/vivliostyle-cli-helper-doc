@@ -1,5 +1,7 @@
 # データのダウンロード
 
+- 本章の括弧内の数字は[講師に教わりながら、Vivliostyleで本を作る！第1部](https://youtu.be/NdwVgr83q7Y)の再生時間です。
+
 ## ブラウザで告知ページを開き、URLをクリック
 
 - [講師に教わりながら、Vivliostyleで本を作る！](https://vivliostyle.org/ja/hands-on/1/)
